@@ -1,25 +1,23 @@
 :root {
-  --c-white: #ffffff;
-  /*   --c-white-soft: #f8f8f8;
+  --c-white: #fff;
+
+  /*   
+  --c-white-soft: #f8f8f8;
   --c-white-mute: #f2f2f2;
 
   --c-black: #181818;
   --c-black-soft: #222222;
-  --c-black-mute: #282828; */
+  --c-black-mute: #282828; 
+  */
 
   --c-blue: #284b7c;
-
   --c-orange: #ff790f;
-
   --c-text-light-1: #394149;
-}
 
-/* semantic color variables for this project */
-:root {
+  // sementic
   --color-background: var(--c-white);
   --color-text: var(--c-text-light-1);
   --color-text-active: var(--c-orange);
-
   --color-heading-1: var(--c-blue);
 }
 
@@ -37,9 +35,9 @@ body {
   color: var(--color-text);
   background: var(--color-background);
   margin: 0;
-
   font-family: Milliard-Book, Arial, Helvetica, sans-serif;
   font-size: 16px;
+  // stylelint-disable-next-line value-keyword-case
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
