@@ -1,0 +1,65 @@
+@font-face {
+  font-display: swap;
+  font-family: "LeituraNews-Roman4";
+  font-style: normal;
+  font-weight: 400;
+  src: url("@/assets/font/0c33e5f8c52d2df51da2.woff2") format("woff2"),
+    url("@/assets/font/dacaeb15e748143a92b6.woff") format("woff"),
+    url("@/assets/font/9ddd4ff2e5a70a8189d3.otf") format("opentype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Milliard-Bold;
+  font-style: normal;
+  font-weight: 400;
+  src: url("@/assets/font/7225c6358a2171be4fbd.woff2") format("woff2"),
+    url("@/assets/font/ca57c6baa87b3363944f.woff") format("woff"),
+    url("@/assets/font/c5677b08ef8d5174c37f.otf") format("opentype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Milliard-SemiBold;
+  font-style: normal;
+  font-weight: 400;
+  src: url("@/assets/font/02ba7e0861f2aed31bbb.woff2") format("woff2"),
+    url("@/assets/font/8547ce798111bd5af46f.woff") format("woff"),
+    url("@/assets/font/ddf0d5936f5d17f36c34.otf") format("opentype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Milliard-Medium;
+  font-style: normal;
+  font-weight: 400;
+  src: url("@/assets/font/18e8b1648644efc1de8d.woff2") format("woff2"),
+    url("@/assets/font/a3e73e3265fd5cbe6800.woff") format("woff"),
+    url("@/assets/font/498a752b892fc7a2e6fa.otf") format("opentype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Milliard-Book;
+  font-style: normal;
+  font-weight: 400;
+  src: url("@/assets/font/73b4b470c960ac809bca.woff2") format("woff2"),
+    url("@/assets/font/091d0a39a248293e0e73.woff") format("woff"),
+    url("@/assets/font/c788f02be832fe19712d.otf") format("opentype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Milliard-BookItalic;
+  font-style: normal;
+  font-weight: 400;
+  src: url("@/assets/font/b884b70c7b6995d2f773.woff2") format("woff2"),
+    url("@/assets/font/090cb034394123f04eb4.woff") format("woff"),
+    url("@/assets/font/ee114d6781934dcfd1c3.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Milliard-ExtraLight;
+  src: url("@/assets/font/8900ecb69fbafc7a4c69.woff") format("woff"),
+    url("@/assets/font/baec5fed7cf17e4056d1.woff2") format("woff2");
+}
