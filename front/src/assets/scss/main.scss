@@ -1,11 +1,15 @@
+// utils
 @import "./utils/miscellaneous";
 @import "./utils/icons";
 
+// base
 @import "./base/meyer-reset";
 @import "./base/base";
 @import "./base/typography";
 
+// layout
 @import "./layout/container";
 
+// components
 @import "./components/caret";
 @import "./components/notification";
