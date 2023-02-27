@@ -1,0 +1,16 @@
+.caret {
+  padding-right: 20px;
+}
+
+.caret::after {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4IiBoZWlnaHQ9IjQiPjxwYXRoIGZpbGw9IiMzOTQxNDkiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTS43MDYuNzA2Qy4zMTYuMzE2LjQ1MyAwIC45OTcgMGg2LjAwNmMuNTUgMCAuNjgzLjMxNC4yOTEuNzA2TDQuNzA2IDMuMjk0YS45OTYuOTk2IDAgMCAxLTEuNDEyIDBMLjcwNi43MDZ6Ii8+PC9zdmc+");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 1.063em;
+}
