@@ -1,0 +1,11 @@
+@use "sass:string";
+
+@function color-xml($color) {
+  $color: "#{$color}";
+
+  @if string.slice($color, 1, 1) == "#" {
+    $color: "%23" + string.slice($color, 2, string.length($color));
+  }
+
+  @return $color;
+}
